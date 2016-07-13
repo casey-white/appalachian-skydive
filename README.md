@@ -2,27 +2,27 @@
 You get to skydive inside the Appalachian Mountains, which are inexplicably hollow. You mine stuff on the way down. No parachutes. 
 This is the second edition of the zero-indexed series called Appalachian Skydive.
 
-### Installallation Instructions for Contributors (Windows only)
+## Installallation Instructions for Contributors (Windows only)
 
-#### What you need
+### What you need
 * Git: https://git-scm.com/downloads
 * Android Studio: https://developer.android.com/studio/index.html
 * Java Development Kit 8: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-#### Cloning the Repository
+### Cloning the Repository
 1. Once you have git, navigate to wherever you want to keep your code. I keep mine in a folder in My Documents.
 2. Right click > "Git Bash Here"
 3. Run this command (shift+insert is how you paste):
 ```
 git clone https://github.com/mac-chaffee/appalachian-skydive.git appalachian-skydive
 ```
-#### Setting up Android Studio
+### Setting up Android Studio
 1. Once you have Android Studio an JDK, open up Android studio
 2. Select "Open an existing Android Studio Project"
 3. Select the "appalachian-skydive" folder from wherever you installed it
 4. If you don't see the project hierarchy in the sidebar, make sure the dropdown box above it says "Project" instead of "Android"
 
-#### Basic Git Commands
+### Basic Git Commands
 * `git status`
 
 Shows what changes you have, what branch you're on, how many commits you haven't pushed yet, etc.
@@ -43,7 +43,7 @@ Bundles up all your changes ("-a") under a message ("-m") that describes those c
 
 Takes all your commits and uploads them to the remote server (by default).
 
-#### Advance Git Commands
+### Advance Git Commands
 Using git "the right way (tm)": Whenever you're working on a big feature, it's good practice to do it on your own branch (not master) named after that feature. For example, if you're fixing hitboxes, checkout the 'hitboxes' branch, made a couple commits, rebase if you need to, and then merge it back into master. It makes for prettier [git trees](https://imgs.xkcd.com/comics/git_commit.png)
 
 * `git checkout -b nameofnewbranch`
