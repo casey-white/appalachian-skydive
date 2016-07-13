@@ -2,7 +2,7 @@
 You get to skydive inside the Appalachian Mountains, which are inexplicably hollow. You mine stuff on the way down. No parachutes. 
 This is the second edition of the zero-indexed series called Appalachian Skydive.
 
-## Installallation Instructions for Contributors (Windows only)
+## Installation Instructions for Contributors (Windows only)
 
 ### What you need
 * Git: https://git-scm.com/downloads
